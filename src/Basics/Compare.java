@@ -1,7 +1,7 @@
 package Basics;
 
 
-public class Main {
+public class Compare {
     public static void main(String[] args) {
         int topScore = 80;
 

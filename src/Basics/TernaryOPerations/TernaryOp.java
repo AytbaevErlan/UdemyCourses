@@ -1,6 +1,6 @@
 package Basics.TernaryOPerations;
 
-public class Main {
+public class TernaryOp {
     public static void main(String[] args) {
         String makeOfCar = "Honda";
         boolean isDomestic = makeOfCar == "Honda" ? false : true;
