@@ -1,12 +1,18 @@
 package udemyCourseAlgoDsa.LinkedList;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
 
-        LinkedList myLinkedListOne = new LinkedList(4);
+        LinkedList myLinkedList = new LinkedList(1);
+        myLinkedList.makeEmpty();
+        myLinkedList.append(1);
+        myLinkedList.append(2);
 
-        myLinkedListOne.printAll();
+
+        myLinkedList.printAll();
     }
 
 }
