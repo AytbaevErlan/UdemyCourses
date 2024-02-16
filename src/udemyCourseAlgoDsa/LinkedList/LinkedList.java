@@ -173,6 +173,22 @@ public class LinkedList {
         return true;
 
     }
+    public Node remove(int index){
+        if( index < 0 ||index >= length) return null;
+        if( index == 0){
+            return removeFirst();
+        }
+        if( index == (length - 1)){
+            return removeLast();
+        }
+        get(index - 1);
+        Node prev = get(index - 1);
+        Node temp = prev.next;
+        temp.next = null;
+        length--;
+        return temp;
+
+    }
 
 }
 
