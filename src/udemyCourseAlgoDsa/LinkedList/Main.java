@@ -10,6 +10,15 @@ public class Main {
         myLinkedList.append(2);
         myLinkedList.append(3);
 
+        System.out.println("Linked List before set():");
+        myLinkedList.printList();
+
+        myLinkedList.set(2, 99);
+
+        System.out.println("\nLinked List after set():");
+        myLinkedList.printList();
+
+
         System.out.println(myLinkedList.get(3).value);
 
 
@@ -20,6 +29,7 @@ public class Main {
         System.out.println(myLinkedList.removeLast().value);
         // (0) Items - Returns null
         System.out.println(myLinkedList.removeLast());
+
 
 
         System.out.println("Before prepend():");
