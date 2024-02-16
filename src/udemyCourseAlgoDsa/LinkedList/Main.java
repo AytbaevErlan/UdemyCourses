@@ -19,6 +19,16 @@ public class Main {
         System.out.println(myLinkedList.removeLast().value);
         // (0) Items - Returns null
         System.out.println(myLinkedList.removeLast());
-    }
+
+
+        System.out.println("Before prepend():");
+        System.out.println("-----------------");
+        myLinkedList.printAll();
+
+        myLinkedList.prepend(1);
+
+        System.out.println("\n\nAfter prepend():");
+        System.out.println("----------------");
+        myLinkedList.printAll();    }
 
 }
